@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas🪙</title>
+    <link rel="icon" type="image/png" href="coin.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h3>feito por:</h3>
+    <h1>Wanderson<span> Gonçalves</span></h1>
+    <div class="container">
+        <header>
+            <h1>Conversor de Moedas🪙</h1>
+        </header>
+        <label for="valor">Valor em Reais (R$):</label>
+        <input type="number" id="valor" placeholder="Digite o valor em reais">
+
+        <label for="moeda">Escolha a moeda:</label>
+        <select id="moeda">
+            <option value="select" selected disabled>Selecione a moeda</option>
+            <option value="usd">Real para Dólar Americano</option>
+            <option value="eur">Real para Euro</option>
+            <option value="gbp">Real para Libra Esterlina</option>
+            <option value="jpy">Real para Iene Japonês</option>
+
+        </select>
+
+        <button onclick="converter()">Converter</button>
+        <img src="imddinh-removebg-preview.png">
+        
+    </div>
+    <footer>
+        <p>&copy; 2026 Wanderson Gonçalves. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
